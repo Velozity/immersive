@@ -1,0 +1,37 @@
+{
+  "name": "immersive",
+  "version": "0.0.1",
+  "description": "Designed to give your members a deeper experience",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev:app": "nodemon -r dotenv/config app.js"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "eris",
+    "chariot",
+    "js"
+  ],
+  "author": "Velozity",
+  "license": "ISC",
+  "dependencies": {
+    "@mysql/xdevapi": "8.0.21",
+    "bignumber.js": "^9.0.1",
+    "bluebird": "^3.7.2",
+    "cards": "^1.1.0",
+    "chariot.js": "^3.3.0",
+    "dotenv": "^8.2.0",
+    "eris": "^0.14.0",
+    "eris-embed-builder": "^0.1.2",
+    "eris-pagination": "^0.5.1",
+    "grapheme-splitter": "^1.0.4",
+    "lodash": "^4.17.19",
+    "moment": "^2.29.1",
+    "redis": "^3.0.2",
+    "shelljs": "^0.8.4",
+    "uuid": "^8.2.0",
+    "winston": "^3.3.3"
+  }
+}
